@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background-color: #f6f6f6;
+}
+.self,.banner,.centerRight-top,textarea,.board{
+	width: 100%;
+}
+.zhu,.self,.centerLeft{
+	background-color: #FFFFFF;
+}
+.zhu{
+	width: 1440px;
+	margin: 0 auto;
+}
+.head{
+	width: 1440px;
+	height: 240px;
+	background-color: #18191f;
+}
+.headLeft{
+	width: 256px;
+	height: 100%;
+	margin-left: 96px;
+	float: left;
+}
+.logo{
+	width: 162px;
+	height: 52px;
+	margin-top: 44px;
+	background: url(../img/Group%2017.png) no-repeat;
+	background-size: 162px 52px;
+	display: flex;
+}
+.self{
+	height: 144px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.TX{
+	width: 80px;
+	height: 80px;
+	background: url(../img/Ellipse%201.png) no-repeat center center;
+	background-size: 80px 80px;
+	border-radius: 40px;
+	border: 2px solid #0ED17F;
+	box-sizing: border-box;
+}
+.name{
+	margin: 16px;
+}
+.headLeft b{
+	font-size: 24px;
+	line-height: 36px;
+}
+.headLeft p{
+	font-size: 14px;
+}
+.headCenter{
+	width: 912px;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	float: left;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.headCenter li{
+	margin: 16px;
+}
+.headRight{
+	width: 176px;
+	height: 100%;
+	float: left;
+}
+.headRight img{
+	width: 80px;
+	height: 131px;
+	margin: 37px 0 0 0;
+}
+.center{
+	display: flex;
+	flex-direction: row;
+}
+.centerLeft{
+	width: 256px;
+	height: 416px;
+	border: 0.5px solid rgba(0, 0, 0, 0.12);
+	border-top: none;
+	margin-left: 95px;
+}
+.centerLeft li{
+	width: 208px;
+	height: 56px;
+	font-size: 16px;
+	color: #18191F;
+	padding: 0 24px 0 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.centerLeft li:hover{
+	border-left: solid 8px #0ED17F;
+	background: rgba(0, 0, 0, 0.06);
+}
+.centerLeft span{
+	width: 12px;
+	height: 12px;
+	background: url(../img/Rectangle%20102.png) no-repeat center center;
+	background-size: 12px 12px;
+}
+.centerCenter{
+	width: 689px;
+	margin: 24px;
+}
+.banner{
+	height: 240px;
+	background: url(../img/Group%2053.png) no-repeat;
+	background-size: 689px 240px;
+}
+.centerRight{
+	width: 256px;
+	height: auto;
+	margin-top: 24px;
+}
+.centerRight-top{
+	height: 240px;
+	background-color: #F6F6F6;
+}
+.centerRight-top p{
+	display: inline-block;
+	margin: 0 16px 16px 16px;
+}
+.centerRight-top p{
+	color: rgba(0, 0, 0, 0.54);
+	font-size: 13px;
+	line-height: 21px;
+}
+.centerRight-top b{
+	display: inline-block;
+	font-size: 16px;
+	margin: 16px;
+}
+.centerRight-bottom{
+	margin-top: 24px;
+}
+.follow{
+	display: flex;
+	flex-direction: row;
+	margin-top: 16px;
+}
+.follow li{
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	margin-right: 16px;
+	line-height: 24px;
+}
+.follow li img{
+	width: 24px;
+	width: 24px;
+}
+textarea{
+	height: 112px;
+	margin-top: 24px;
+	border: 0.5px solid #E5E5E5;
+	outline: none;
+	color: rgba(0, 0, 0, 0.54);
+	resize:none;
+}
+.send{
+	display: block;
+	color: #0ED17F;
+	font-size: 16px;
+	margin: -40px 0 0 640px;
+}
+.board{
+	height: auto;
+	margin-top: 96px;
+	line-height: 40px;
+}
+.board p{
+	color: rgba(0,0,0,0.54);
+}
+.footer{
+	width: 100%;
+	height: 160px;
+	background-color: #18191F;
+	margin-top: 240px;
+}
