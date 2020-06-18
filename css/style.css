@@ -12,6 +12,9 @@ body{
 .zhu,.self,.centerLeft{
 	background-color: #FFFFFF;
 }
+li{
+	cursor: pointer;
+}
 .zhu{
 	width: 1440px;
 	margin: 0 auto;
@@ -107,6 +110,7 @@ body{
 .centerLeft li:hover{
 	border-left: solid 8px #0ED17F;
 	background: rgba(0, 0, 0, 0.06);
+	padding: 0 24px 0 16px;
 }
 .centerLeft span{
 	width: 12px;
