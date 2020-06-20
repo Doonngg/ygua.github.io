@@ -1,0 +1,96 @@
+@media screen and (min-width:320px) and (max-width:750px){
+	.zhu{
+		width: 100%;
+		height: auto;
+	}
+	.head{
+		width: 100%;
+		height: 120px;
+	}
+	.headLeft{
+		width: 100%;
+		height: 96px;
+		margin-left: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 64px;
+	}
+	.TX{
+		width: 64px;
+		height: 64px;
+		background-size: 64px 64px;
+	}
+	.logo{
+		width: 74px;
+		height: 32px;
+		background: url(../img/歪瓜.png) no-repeat;
+		background-size: 72px 28px;
+		margin: 0 0 0 16px;
+	}
+	.self{
+		width: 256px;
+		height: 100%;
+		border: 0.5px solid rgba(0, 0, 0, 0.24);
+		border-radius: 4px 0px 0px 4px;
+	}
+	.headCenter{
+		display: none;
+	}
+	.headRight{
+		display: none;
+	}
+	.centerLeft{
+		display: none;
+	}
+	.center{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background-color: #FFFFFF;
+		z-index: -1;
+	}
+	.centerCenter{
+		position: absolute;
+		width: 343px;
+		top: 64px;
+		left: 16px;
+		right: 16px;
+		margin: 0;
+	}
+	.banner,.browser,.update,.follow,.board,textarea{
+		width: 100%;
+	}
+	.banner{
+		height: 120px;
+		background-size: 343px 120px;
+	}
+	textarea{
+		width: 311px;
+	}
+	.footer{
+		position: absolute;
+		top: 1600px;
+	}
+}
+@media (max-width:320px) {
+	.logo{
+		width: 64px;
+		height: 26px;
+		background-size: 64px 26px;
+	}
+	.self{
+		width: 216px;
+		height: 80px;
+	}
+	.centerCenter{
+		width: 288px;
+	}
+	.banner{
+		height: 100px;
+		background-size: 288px 100px;
+	}
+	textarea{
+		width: 256px;
+	}
+}
