@@ -3,8 +3,9 @@
 	margin: 0;
 	list-style: none;
 	color: #18191F;
+	outline: none;
 }
-.head,.top,.banner,.download-local,.update{
+.head,.top,.banner,.download-local,.update,.Message,.follow{
 	width: 100%;
 }
 .head{
@@ -129,4 +130,63 @@
 	background: #F6F6F6;
 	border-radius: 4px;
 	margin-top: 32px;
+}
+
+.update{
+	height: 160px;
+	background-color: #F6F6F6;
+	margin-top: 24px;
+	border-radius: 4px;
+}
+.update p,.update b{
+	display: inline-block;
+	margin: 16px;
+	color: #18191F;
+}
+.update b{
+	font-size: 16px;
+}
+.update p{
+	font-size: 13px;
+	line-height: 21px;
+	margin-top: 0;
+}
+.Message{
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 32px;
+}
+textarea{
+	width: 80%;
+	border: 0.5px  solid #E5E5E5;
+	border-radius: 4px 0 0 4px ;
+	color: rgba(0, 0, 0, 0.54);
+	resize:none;
+}
+
+.Message button{
+	width: 20%;
+	background: #0ED17F;
+	border: 0.5px solid rgba(0, 0, 0, 0.24);
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+	border-radius: 0 4px 4px 0;
+	color: #FFFFFF;
+}
+.follow{
+	height: auto;
+	margin-top: 24px;
+	font-size: 16px;
+	text-align: center;
+}
+.follow img{
+	width: 24px;
+	height: 24px;
+}
+.follow ul{
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
