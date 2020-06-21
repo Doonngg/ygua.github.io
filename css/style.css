@@ -237,4 +237,10 @@ footer ul{
 	margin-left: 240px;
 	line-height: 32px;
 }
-
+footer a{
+	color: rgba(255,255,255,0.54);
+	text-decoration: none;
+}
+footer a:hover{
+	text-decoration: blink;
+}
